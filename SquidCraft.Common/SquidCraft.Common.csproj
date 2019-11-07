@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.0</TargetFramework>
+        <RootNamespace>SquidCraft</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="NLog" Version="4.6.8" />
+      <PackageReference Include="OpenTK" Version="3.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SquidCraft.API\SquidCraft.API.csproj" />
+      <ProjectReference Include="..\SquidCraft.NBT\SquidCraft.NBT.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Math" />
+    </ItemGroup>
+
+</Project>
